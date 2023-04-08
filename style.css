@@ -1,0 +1,100 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  color: #111111;
+}
+
+header {
+  padding: 15px 30px;
+  background: #101010;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+header a {
+  display: inline-block;
+  margin: 0 8px;
+  text-decoration: none;
+  color: #fff;
+}
+
+header a:hover {
+  opacity: 0.8;
+}
+
+section {
+  padding: 40px 30px;
+}
+section:nth-child(odd) {
+  background: #e9e8e8;
+}
+
+blockquote {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+
+ul li {
+  padding: 0 0 0 30px;
+  list-style: none;
+  position: relative;
+}
+
+ul li:before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  box-sizing: border-box;
+  background: #fff;
+  border: 2px solid chocolate;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+}
+
+ul li + li {
+  margin-top: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: chocolate;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  height: 40px;
+  width: 300px;
+  box-sizing: border-box;
+  padding: 0 15px;
+}
+
+button,
+input[type="button"],
+input[type="submit"] {
+  height: 40px;
+  width: 300px;
+  background: chocolate;
+  border: 0;
+  color: #fff;
+}
+
+th {
+  background: #111111;
+  color: #fff;
+}
+
+th,
+td {
+  padding: 4px 6px;
+}
